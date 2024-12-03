@@ -105,7 +105,7 @@ function totalPrice() {
   AES_total.innerText = Math.round(cPrice * cQuantity * 100) / 100;
   totals =
     totals + sPrice * sQuantity + bPrice * bQuantity + cPrice * cQuantity;
-  tax.innerText = (totals * 0.09).toFixed(2)  + "$ ";
+  tax.innerText = (totals * 0.1).toFixed(2)  + "$ ";
   subtotal.innerText = Math.round(totals * 100) / 100+"$ "  ;
 
 
